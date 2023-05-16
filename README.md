@@ -11,6 +11,7 @@ Official instructions can be founded from here: https://metview.readthedocs.io/e
 
 For Atos users, these are the commands I run before every session:
 
+```shell
 mkdir -p /home/$USER/metview
 cd /home/$USER/metview
 module load conda
@@ -22,7 +23,7 @@ mkdir -p /ec/res4/scratch/$USER/tmpdir/
 export TMPDIR=/ec/res4/scratch/$USER/tmpdir/
 python3 -m metview selfcheck
 pip install display
-
+```
 
 
 I hope you find these programs usefull in your research,
@@ -32,11 +33,11 @@ Research Assistant
 Finnish Meteorological Institute
 
 Metview licence terms:
-# (C) Copyright 2017- ECMWF.
-#
-# This software is licensed under the terms of the Apache Licence Version 2.0
-# which can be obtained at http://www.apache.org/licenses/LICENSE-2.0.
-#
-# In applying this licence, ECMWF does not waive the privileges and immunities
-# granted to it by virtue of its status as an intergovernmental organisation
-# nor does it submit to any jurisdiction.
+(C) Copyright 2017- ECMWF.
+
+This software is licensed under the terms of the Apache Licence Version 2.0
+which can be obtained at http://www.apache.org/licenses/LICENSE-2.0.
+
+In applying this licence, ECMWF does not waive the privileges and immunities
+granted to it by virtue of its status as an intergovernmental organisation
+nor does it submit to any jurisdiction.
